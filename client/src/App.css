@@ -297,6 +297,7 @@ body {
 .channel__container {
   height: 100%;
   width: 100%;
+  background-image: url('./assets/bg.jpg');
 }
 
 .str-chat__thread {
@@ -855,8 +856,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background: #ffffff;
-  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  background-image: url('./assets//bg.jpg');
   border-top-right-radius: 16px;
   z-index: 1;
 }
@@ -1070,7 +1070,6 @@ body {
   margin: 0;
   background: rgb(253, 110, 110);
   border-radius: 20px;
-  border: 1px solid #fff;
   padding: 0.5rem 1.2rem;
   outline: none;
   cursor: pointer;
@@ -1102,7 +1101,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  color: #858688;
+  color: #9e9fa1;
   margin-top: 4px;
 }
 
@@ -1112,7 +1111,7 @@ body {
   font-weight: 500;
   font-size: 11px;
   line-height: 120%;
-  color: #858688;
+  color: #9e9fa1;
   margin: 0;
   margin-right: 8px;
 }
@@ -1145,7 +1144,7 @@ body {
 }
 
 .str-chat__date-separator-date {
-  color: #858688;
+  color: #9e9fa1;
   font-family: Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1342,7 +1341,8 @@ ul.str-chat__simple-reactions-list:hover {
   background: #ffffff;
   border: 1px solid #e9e9ea;
   box-sizing: border-box;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 2px 4px
+    rgba(255, 255, 255, 0.06);
   border-radius: 99999px;
 }
 
@@ -1456,7 +1456,7 @@ ul.str-chat__simple-reactions-list:hover {
   border: none;
   outline: none;
   box-shadow: none;
-  background: #fff;
+  background: rgb(97, 94, 94);
 }
 
 .team-message-input__wrapper
@@ -1782,6 +1782,7 @@ div.rta__autocomplete.str-chat__emojisearch {
 .str-chat__input-flat {
   width: 100%;
   padding: 10px;
+  background-image: url('./assets/bg.jpg');
 }
 
 @media screen and (max-width: 960px) {
